@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FirstCare-Instant Aid, Anytime, Anywhere</title>
+  <link rel="stylesheet" href="home.css">
+
+
+<body>
+  <div class="home-container">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">FirstCare</a>
+      </div>
+
+      <!-- search bar -->
+      <ul class="nav-links">
+        <li>
+          <search></search>
+        </li>
+        <li>
+          <a href="#" class="nav-item">
+            <i class="fas fa-home nav-icon"></i>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="/hospitals" class="nav-item">
+            <i class="fas fa-hospital nav-icon"></i>
+            <span>Hospitals</span>
+          </a>
+        </li>
+        <li>
+          <a href="/pages/guidelines.html" class="nav-item">
+            <i class="fas fa-book nav-icon"></i>
+            <span>Guidelines</span>
+          </a>
+        </li>
+        <li>
+          <a href="/settings" class="nav-item">
+            <i class="fas fa-cog nav-icon"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+      </ul>
+
+      <button id="emergency-btn" class="emergency-btn" onclick="handleEmergencyClick()">
+        <i class="fas fa-exclamation-triangle emergency-icon"></i>
+        EMERGENCY
+      </button>
+    </nav>
+
+    <div class="content">
+      <h1>First Aid at Your Fingertips</h1>
+      <h4>Your trusted source for medical information and emergency services</h4>
+
+      <div class="banner-container">
+        <img src="/images/home.png" alt="home_page" class="banner-image">
+        <div class="banner-overlay">
+          <h2 class="banner-title">Your Health, Our Priority</h2>
+          <h4 style="color: rgba(195, 201, 213, 0.947);">Access medical assistance and emergency services anytime, anywhere.</h4>
+
+          <!-- Quick Navigation Links -->
+          <div class="quick-nav"></div>
+          <a href="./pages/health-tips.html" class="quick-nav-item">
+            <span>Health Tips</span>
+          
+          </a>
+        </div>
+      </div>
+    </div>
+
+<script src="/chatbot.js"></script>  
+</body>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <div class="footer-logo">
+        <a href="#">FirstCare</a>
+      </div>
+      <p class="footer-description">Your trusted source for medical information and emergency services, available 24/7.</p>
+      <div class="social-links">
+        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    
+    <div class="footer-section">
+      <h3 class="footer-heading">Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="/hospitals">Hospitals</a></li>
+        <li><a href="/guidelines">Guidelines</a></li>
+        <li><a href="/health-tips">Health Tips</a></li>
+        <li><a href="/settings">Settings</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <h3 class="footer-heading">Services</h3>
+      <ul class="footer-links">
+        <li><a href="#">Emergency Assistance</a></li>
+        <li><a href="#">Medical Advice</a></li>
+        <li><a href="#">Hospital Locator</a></li>
+        <li><a href="#">First Aid Guidelines</a></li>
+        <li><a href="#">Health Information</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <h3 class="footer-heading">Contact Us</h3>
+      <ul class="contact-info">
+        <li><i class="fas fa-map-marker-alt"></i> 123 Healthcare Ave, Medical City</li>
+        <li><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
+        <li><i class="fas fa-envelope"></i> info@firstcare.com</li>
+      </ul>
+      <div class="newsletter">
+        <h4>Subscribe to our newsletter</h4>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p>© 2023 FirstCare. All rights reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+</html>
